@@ -1587,7 +1587,7 @@
           },
           "blocks": {
             "shopvid_mp_tiktok_block_hygyjQ": {
-              "type": "shopify://apps/shopvid/blocks/mp_tiktok_block/1216543a-6237-4445-a5f2-61991cd76022",
+              "type": "shopify://apps/ag-shoppable-video/blocks/mp_tiktok_block/1216543a-6237-4445-a5f2-61991cd76022",
               "settings": {
                 "mp_tiktok_feed_id": "0403-426722"
               }
@@ -4162,7 +4162,7 @@
             "ai_gen_block_f16862d_npGiWm": {
               "type": "ai_gen_block_f16862d",
               "settings": {
-                "product": "sunflower-with-bees",
+                "product": "sunflower-with-bees-glass-tumbler",
                 "thumbnail_width": 40
               },
               "blocks": {}
@@ -4311,7 +4311,7 @@
             "ai_gen_block_f16862d_UqntkA": {
               "type": "ai_gen_block_f16862d",
               "settings": {
-                "product": "spring-lemons",
+                "product": "spring-lemons-glass-tumbler",
                 "thumbnail_width": 40
               },
               "blocks": {}
@@ -4460,7 +4460,7 @@
             "ai_gen_block_f16862d_VpdMpe": {
               "type": "ai_gen_block_f16862d",
               "settings": {
-                "product": "funky-chickens",
+                "product": "funky-chickens-glass-tumbler",
                 "thumbnail_width": 40
               },
               "blocks": {}
@@ -4609,7 +4609,7 @@
             "ai_gen_block_f16862d_MKfP96": {
               "type": "ai_gen_block_f16862d",
               "settings": {
-                "product": "minimalist-blue-flowers-cups",
+                "product": "minimalist-blue-flowers-glass-tumbler",
                 "thumbnail_width": 40
               },
               "blocks": {}
