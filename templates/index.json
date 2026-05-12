@@ -446,7 +446,7 @@
             "image_upload": "shopify://shop_images/9_10c19c36-ba1b-40df-af80-8dbbabbbd3b2.png",
             "width": 160,
             "use_height": true,
-            "height": 42,
+            "height": 32,
             "custom_mobile_height": false,
             "mobile-height": 50,
             "link": "",
