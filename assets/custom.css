@@ -1192,7 +1192,7 @@ summary:hover {
     }
 
     .header__row .header-drawer {
-        margin-inline-start: var(--gap-2xs);
+        margin-inline: var(--gap-2xs);
     }
 
     .cart-usp-list {
