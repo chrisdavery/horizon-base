@@ -4989,6 +4989,9 @@
         "group_EWnWFw",
         "okendo_reviews_carousel_GNigiV"
       ],
+      "custom_css": [
+        ".oke-reviewCard {background: #fff;}"
+      ],
       "name": "Okendo Carousel",
       "settings": {
         "content_direction": "column",
