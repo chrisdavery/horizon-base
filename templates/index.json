@@ -510,7 +510,7 @@
           "name": "t:names.icon",
           "settings": {
             "icon": "price_tag",
-            "image_upload": "shopify://shop_images/4_11d5275c-1a52-46ad-835e-23f9564d4d6a.png",
+            "image_upload": "shopify://shop_images/scheels.png",
             "width": 24,
             "use_height": true,
             "height": 84,
@@ -529,7 +529,7 @@
             "image_upload": "shopify://shop_images/nordstrom.png",
             "width": 24,
             "use_height": true,
-            "height": 58,
+            "height": 42,
             "custom_mobile_height": true,
             "mobile-height": 50,
             "link": "",
