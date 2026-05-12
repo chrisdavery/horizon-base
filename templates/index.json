@@ -439,40 +439,6 @@
     "marquee_RDGCgh": {
       "type": "marquee",
       "blocks": {
-        "text_g6Kqp3": {
-          "type": "text",
-          "name": "t:names.heading",
-          "disabled": true,
-          "settings": {
-            "text": "<h2>as seen in</h2>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "enable_mobile_size": false,
-            "mobile_font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "custom_mobile_padding": false,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "icon_FaUcbf": {
           "type": "icon",
           "name": "t:names.icon",
@@ -482,7 +448,7 @@
             "width": 160,
             "use_height": true,
             "height": 42,
-            "custom_mobile_height": true,
+            "custom_mobile_height": false,
             "mobile-height": 50,
             "link": "",
             "open_in_new_tab": false
@@ -498,7 +464,7 @@
             "width": 78,
             "use_height": true,
             "height": 42,
-            "custom_mobile_height": true,
+            "custom_mobile_height": false,
             "mobile-height": 50,
             "link": "",
             "open_in_new_tab": false
@@ -514,7 +480,7 @@
             "width": 24,
             "use_height": true,
             "height": 24,
-            "custom_mobile_height": true,
+            "custom_mobile_height": false,
             "mobile-height": 50,
             "link": "",
             "open_in_new_tab": false
@@ -530,7 +496,7 @@
             "width": 24,
             "use_height": true,
             "height": 24,
-            "custom_mobile_height": true,
+            "custom_mobile_height": false,
             "mobile-height": 50,
             "link": "",
             "open_in_new_tab": false
@@ -539,7 +505,6 @@
         }
       },
       "block_order": [
-        "text_g6Kqp3",
         "icon_FaUcbf",
         "icon_jLdPcJ",
         "icon_biTM39",
