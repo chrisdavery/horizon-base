@@ -3,8 +3,6 @@
   It is used in the product block, featured product block, and the product card block.
   The product object is null or when placeholders are rendered.
 
-  @param {string} [render_text] - The render text
-  @param {object} [active_variant] - The variant object
   @param {string} [discount_label] - The discount label
   @param {string} [discount_background] - The discount background color
   @param {string} [discount_color_text] - The discount text color
@@ -15,11 +13,11 @@
 -%}
 
 {% capture children %}
-  {% content_for 'block', type: '_product-card-gallery', id: 'product-card-gallery', discount_label: discount_label, discount_background: discount_background, discount_color_text: discount_color_text, product: product, active_variant: active_variant %}
+  {% content_for 'block', type: '_product-card-gallery', id: 'product-card-gallery', discount_label: discount_label, discount_background: discount_background, discount_color_text: discount_color_text, product: product %}
   {% content_for 'blocks', closest.product: product %}
 {% endcapture %}
 
-{% render 'product-card', children: children, product: product, active_variant: active_variant, render_text: render_text %}
+{% render 'product-card', children: children, product: product %}
 
 {% schema %}
 {
