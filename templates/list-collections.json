@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "collection_list_Wfgh3m": {
       "type": "main-collection-list",
@@ -20,17 +20,12 @@
             "open_in_new_tab": false,
             "content_direction": "column",
             "vertical_on_mobile": true,
-            "reverse_on_mobile": false,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "custom_mobile_alignment": false,
-            "mobile_vertical_alignment": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
-            "enable_mobile_gap": false,
-            "mobile_gap": 12,
             "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fit-content",
@@ -46,38 +41,27 @@
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0,
-            "enable_mobile_radius": false,
-            "mobile_border_radius": 0,
-            "placeholder": "",
             "toggle_overlay": false,
             "overlay_color": "#00000026",
             "overlay_style": "solid",
             "gradient_direction": "to top",
             "padding-block-start": 0,
-            "padding-block-end": 0,
+            "padding-block-end": 48,
             "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "custom_mobile_padding": false,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0,
-            "css_class": ""
+            "padding-inline-end": 0
           },
           "blocks": {
             "text_fRMQMR": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h1>Shop by Collection</h1>",
+                "text": "<h1>Shop by collection</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "h2",
                 "font": "var(--font-primary--family)",
                 "font_size": "",
-                "enable_mobile_size": true,
-                "mobile_font_size": "2rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -87,14 +71,9 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 16,
                 "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "custom_mobile_padding": false,
-                "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 0,
-                "mobile-padding-inline-start": 0,
-                "mobile-padding-inline-end": 0
+                "padding-inline-end": 0
               },
               "blocks": {}
             }
@@ -111,7 +90,7 @@
             "placement": "below_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-start",
-            "collection_card_gap": 12,
+            "collection_card_gap": 8,
             "inherit_color_scheme": true,
             "color_scheme": "",
             "border": "none",
@@ -127,11 +106,9 @@
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h3",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
-                "enable_mobile_size": true,
-                "mobile_font_size": "1.125rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -173,14 +150,11 @@
       "block_order": [
         "group_4FtiAg"
       ],
-      "custom_css": [
-        "@media (max-width: 749px) {.resource-list {--resource-list-mobile-gap-max: 24px; }}"
-      ],
       "name": "t:names.collection_list",
       "settings": {
         "layout_type": "grid",
         "carousel_on_mobile": false,
-        "columns": 4,
+        "columns": 3,
         "mobile_columns": "2",
         "columns_gap": 12,
         "bento_gap": 8,
@@ -189,10 +163,10 @@
         "icons_style": "arrow",
         "icons_shape": "none",
         "section_width": "page-width",
-        "gap": 24,
+        "gap": 12,
         "color_scheme": "",
         "padding-block-start": 48,
-        "padding-block-end": 80
+        "padding-block-end": 48
       }
     }
   },
