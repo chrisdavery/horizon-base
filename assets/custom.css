@@ -231,7 +231,7 @@ slideshow-controls.carousel-controls .icon-play {
 }
 
 /* Hide full-width header underlay only when a flat mega menu is open */
-.header:has(.menu-list__link--flat[aria-expanded='true']) .header__underlay-open {
+.header:has(.menu-list__submenu--flat:not([inert])) .header__underlay-open {
     display: none !important;
 }
 
